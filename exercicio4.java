@@ -4,7 +4,7 @@ public class exercicio4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite uma cor: Verde, Amarelo ou Vermelho");
+        System.out.println("Digite a cor do semáforo: ");
         String cor = scanner.nextLine();
 
         if (cor.equals("Verde")) {
